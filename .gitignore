@@ -1,0 +1,21 @@
+# 의존성
+node_modules/
+
+# 환경변수 (실제 키/시크릿 — .env.example만 커밋)
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# 빌드 산출물
+dist/
+dist-ssr/
+
+# SQLite DB (npm run db:migrate로 재생성)
+server/src/db/*.sqlite3
+server/src/db/*.sqlite3-shm
+server/src/db/*.sqlite3-wal
+
+# 로그
+*.log
